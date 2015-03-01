@@ -4,7 +4,7 @@ tcpdumpとかtcpflowのアレから元ファイル復元したいときに使う
 
 e.g.
 ```console
-$ tcpflow port 80
+# tcpflow -ieth0 port 80
 なんか通信
 $ ./parse_tcpflow_http.sh *.00080
 ```
