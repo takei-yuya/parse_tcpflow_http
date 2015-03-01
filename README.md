@@ -6,5 +6,5 @@ e.g.
 ```console
 $ tcpflow port 80
 なんか通信
-$ ./parse_tcpflow_http.sh *80
+$ ./parse_tcpflow_http.sh *.00080
 ```
